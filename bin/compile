@@ -116,7 +116,7 @@ else
     PROFILE=${HOME}/.profile.d
 
     echo "-----> Using Erlang/$ver"
-
+    echo "-----> Using fetch URL: ${OTP_TARBALL_URL"
     (
         set -e
 
